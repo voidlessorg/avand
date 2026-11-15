@@ -1,0 +1,6 @@
+dist/
+installer/avand.exe
+*.exe
+*.sig
+avand-keys.txt
+AvandData/

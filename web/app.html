@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>آوند</title><link rel="stylesheet" href="/assets/avand.css"></head>
+<body>
+<div class="shell">
+  <aside class="side" id="side">
+    <div class="brand" id="brand"></div>
+    <nav class="nav" id="nav"></nav>
+    <div class="nav-title"><span>پوشه‌ها</span><button class="btn ghost sm icon" id="newFolder" title="پوشه‌ی جدید"></button></div>
+    <nav class="nav" id="folders"></nav>
+    <div style="margin:14px 4px 4px" id="quota"></div>
+    <div id="supportBox" style="margin-top:12px"></div>
+  </aside>
+  <div class="main">
+    <header class="top">
+      <button class="btn icon ghost burger" id="burger"></button>
+      <div class="search"><span id="sIc"></span><input class="input" id="q" placeholder="جست‌وجو در فایل‌ها…" autocomplete="off"></div>
+      <button class="btn pri" id="upBtn"></button>
+      <button class="btn icon" id="viewBtn" title="نمایش"></button>
+      <button class="btn icon" id="setBtn" title="تنظیمات"></button>
+    </header>
+    <div class="content" id="content"></div>
+  </div>
+</div>
+<input type="file" id="pick" multiple hidden>
+<div class="drop" id="drop"><div id="dropT"></div></div>
+<div class="tray hide" id="tray"><header><span id="trayT" class="grow"></span><button class="btn ghost sm icon" id="trayX"></button></header><div class="items" id="items"></div></div>
+<script src="/assets/icons.js"></script><script src="/assets/common.js"></script><script src="/assets/app.js"></script>
+</body></html>
